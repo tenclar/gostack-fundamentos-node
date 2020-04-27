@@ -30,7 +30,7 @@ class TransactionsRepository {
             accumulator.income += transaction.value;
             break;
           case 'outcome':
-            accumulator.outcome -= transaction.value;
+            accumulator.outcome += transaction.value;
             break;
           default:
             break;
